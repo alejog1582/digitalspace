@@ -7,6 +7,19 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Paso a paso para ejecion
+
+- Clonar el repositorio con la SSH
+- Crear base de datos MYSQL con nombre: "digitalspace" o segun el nombre que configure en el .env y cotegamiento: "utf8_unicode_ci"
+- En el cmd ejectuar el comando "php artisan migrete" (Este comando creara las tablas en base da datos)
+- Levantar servidor local con el comnado "PHP artisan serve".
+
+## Tecnologia utilizada
+
+-"php": "^7.3|^8.0",
+-"laravel/framework": "^8.40",
+-Mysql
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
